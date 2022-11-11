@@ -1895,9 +1895,17 @@ a:hover.back-to-top {
 		padding-top: 6rem;
 		padding-bottom: 4.5rem;
 	}
+	.row {
+		display: -ms-flexbox;
+		/* display: flex; */
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px;
+	  }
 
 	.counter #counter .cell {
-		width: 8rem;
+		width: auto;
 		margin-right: 2.5rem;
 		margin-left: 2.5rem;
 	}
