@@ -23,9 +23,10 @@
             <input type="checkbox" name="myCheckbox">
             <span class="slider round"></span>
         </label>
+        <button type="button" onclick="alert('Hello world!')">Click Me!</button>
     </body>
-            <script type="text/javascript">
-    var _selector = document.querySelector('input[name=myCheckbox]');
+    <script type="text/javascript">
+    var _selector = document.querySelector('button');
     _selector.addEventListener('change', function(event) {
         var message = (_selector.checked) ? "Toggle Switch is on" : "Toggle Switch is off";
 
