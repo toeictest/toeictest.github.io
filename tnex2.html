@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <button id="myBtn">TEST ------------</button>
+    <script>
+        const element = document.getElementById("myBtn");
+        element.addEventListener("click", function () {
+            if (messageHandler) {
+                messageHandler.postMessage("tnex_message");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
